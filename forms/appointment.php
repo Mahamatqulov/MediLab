@@ -39,7 +39,7 @@
   $contact->add_message( $_POST['date'], 'Appointment Date');
   $contact->add_message( $_POST['department'], 'Department');
   $contact->add_message( $_POST['doctor'], 'Doctor');
-  $contact->add_message( $_POST['message'], 'Message');
+  $contact->add_message( $_POST['message'], 'Message.222');
 
   echo $contact->send();
 ?>
